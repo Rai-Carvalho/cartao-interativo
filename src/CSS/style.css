@@ -1,0 +1,74 @@
+:root {
+    --font-white: #fff;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-image: url(../images/bg-main-desktop.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card .card-front {
+    margin: 0 0 30px 150px;
+}
+
+.card-front .img-front{
+    position: relative;
+}
+
+.card-front .info-front{
+    position: absolute;
+    padding: 30px;
+    z-index: 1;
+}
+
+.card-front .info-front img {
+    margin-bottom: 60px;
+}
+
+.card-front .info-front .info-card #number-card {
+    letter-spacing: 5px;
+    color: var(--font-white);
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.card-front .info-front .info-card div {
+    display: flex;
+    justify-content: space-between;
+    color: var(--font-white);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    
+}
+
+
+
+.card-back {
+    margin: 0 0 30px 250px;
+}
+
+.card-back .img-back {
+    position: relative;
+}
+
+.card-back div {
+    position: absolute;
+    margin: 111px 0 0 360px;
+    z-index: 1;
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--font-white);
+}
