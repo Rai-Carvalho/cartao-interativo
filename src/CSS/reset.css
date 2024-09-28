@@ -3,3 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+input {
+    padding: 15px;
+    width: 400px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid hsl(270, 3%, 87%);
+
+}
+
+label {
+    margin-bottom: 5px;
+    color: hsl(278, 68%, 11%);
+}

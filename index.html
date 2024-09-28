@@ -31,8 +31,34 @@
             <img class="img-back" src="src/images/bg-card-back.png" alt="">
         </div>
     </section>
-    <section class="form">
 
+    <section class="form">
+        <div class="name-input">
+            <label for="name">Nome do Titular</label>
+            <input type="text" name="name" id="name" placeholder="Digite seu nome completo" >
+        </div>
+        
+        <div class="number-input">
+            <label for="number">Numero do Cartão</label>
+            <input type="text" name="number" id="number" placeholder="Digite o número do cartão">
+        </div>
+        
+        <div class="exp">
+            <div class="month-year">
+                <label for="date">Data (MM/AA)</label>
+                <div class="exp-date">
+                    <input type="text" name="month" id="date" placeholder="MM" maxlength="2">
+                    <input type="text" name="year" id="date" placeholder="AA" maxlength="2">
+                </div>
+            </div>
+
+            <div class="cvc-input">
+                <label for="cvc">CVC</label>
+                <input type="text" name="cvc" id="cvc" placeholder="CVC" maxlength="3">
+            </div>
+            
+        </div>
+        <input class="btn" type="submit" value="Confirme">
     </section>
 </body>
 </html>
